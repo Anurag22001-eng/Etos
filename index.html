@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5381543b0d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="aos.css" >
+</head>
+<body>
+    <nav class="navbar">
+        <div class="content">
+          <div class="logo">
+            <a href="#">Etos</a>
+          </div>
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#my-footer">About</a></li>
+            <li><a href="#my-footer2">Contact</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        cancelBtn.onclick = ()=>{
+          body.classList.remove("disabled");
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
+      <div class="banner"></div>
+        <div class="cards_wrap">
+         
+            <div class="card_item1" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card_inner" >
+                    <i class="fas fa-tachometer-alt fa-5x"></i>
+                    <div class="role_name">Have perfect control</div>
+                    
+                    <div class="film">over all your cash expenses, bank accounts, E-Wallets and crypto wallets.</div>
+                </div>
+            </div>
+            <div class="card_item1" data-aos="fade-up" data-aos-duration="1500">
+                <div class="card_inner">
+                    <i class="fas fa-chart-pie fa-5x"></i>
+                    <div class="role_name">Get a quick overview</div>
+                    
+                    <div class="film">about your total incomes and expenses at a glance and in one place.</div>
+                </div>
+            </div>
+            <div class="card_item1" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card_inner">
+                    <i class="fas fa-money-bill-wave fa-5x"></i>
+                    <div class="role_name">Use our smart budgets</div>
+                    
+                    <div class="film">to save money for a new car, dreamy vacation or top university.</div>
+                </div>
+            </div>  
+        </div>
+
+
+    <div class="wrapper">
+    <div class="header" data-aos="fade-up" data-aos-duration="1000">How to get your
+        money into shape?</div>
+</div>
+    <div class="wrapper1">
+        <div class="content1" data-aos="fade-up" data-aos-duration="1000">
+        <h3 class="step1">Step 1</h3>
+        <h1 class ="steps1">Track Your cash flow</h1>
+        <h3 class="point1"><i class="fa fa-check" aria-hidden="true"></i> Connect your bank account and all your transactions with ethos.</h3>
+        <h3 class="point1"><i class="fa fa-check" aria-hidden="true"></i> Connect your other E-wallets for complete overview of your cashflow.</h3>
+        <h3 class="point1"><i class="fa fa-check" aria-hidden="true"></i> Add your cash expenses manually</h3>
+        </div>
+        <div class="image1" data-aos="fade-up" data-aos-duration="2500">
+        <img  src="step1.svg">
+        </div>
+    </div>
+    <div class="wrapper1">
+        <div class="content1" data-aos="fade-up" data-aos-duration="1000">
+        <h3 class="step1">Step 2</h3>
+        <h1 class ="steps1">Understand your financial habits</h1>
+        <h3 class="point1"><i class="fa fa-check" aria-hidden="true"></i> Analyze your finance with beautiful, simple and easy to understand graphic. No need for complicated Excel sheets.</h3>
+        <h3 class="point1"><i class="fa fa-check" aria-hidden="true"></i> See where your money goes and where they come from every month.</h3>
+        <h3 class="point1"><i class="fa fa-check" aria-hidden="true"></i> See whether you spend less than you earn in one place and on 1 tap.</h3>
+        </div>
+        <div class="image1" data-aos="fade-up" data-aos-duration="2500">
+        <img  src="step2.svg">
+        </div>
+    </div>
+    <div class="wrapper1">
+        <div class="content1" data-aos="fade-up" data-aos-duration="1000">
+        <h3 class="step1">Step 3</h3>
+        <h1 class ="steps1">Make your spending stress–free</h1>
+        <h3 class="point1"><i class="fa fa-check" aria-hidden="true"></i> Set smart budgets to help you not to overspend in chosen category.</h3>
+        <h3 class="point1"><i class="fa fa-check" aria-hidden="true"></i> Know how much you can spend daily in order to stick to your budget.</h3>
+        <h3 class="point1"><i class="fa fa-check" aria-hidden="true"></i> Save money for your future dreams.</h3>
+        </div>
+        <div class="image1" data-aos="fade-up" data-aos-duration="2500">
+        <img  src="step3.svg">
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="header" data-aos="fade-up" data-aos-duration="1000">Features for our Users</div>
+    
+        <div class="cards_wrap" >
+         
+            <div class="card_item" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card_inner" >
+                    <i class="fas fa-wallet fa-5x"></i>
+                    <div class="role_name">Shared Wallets</div>
+                    
+                    <div class="film">are popular among couples ,families and roommates who handle their finances in Spendee.</div>
+                </div>
+            </div>
+            <div class="card_item" data-aos="fade-up" data-aos-duration="1500">
+                <div class="card_inner">
+                    <i class="fas fa-university fa-5x"></i>
+                    <div class="role_name">Connecting bank accounts</div>
+                    
+                    <div class="film">to Spendee is preferred by people paying mostly by card..</div>
+                </div>
+            </div>
+            <div class="card_item" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card_inner">
+                    <i class="fas fa-user-circle fa-5x"></i>
+                    <div class="role_name">Customize Spendee</div>
+                    
+                    <div class="film">Customize your categories, add a picture or a location to every expense.</div>
+                </div>
+            </div>
+            <div class="card_item" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card_inner">
+                    <i class="fas fa-coins fa-5x"></i>
+                    <div class="role_name">Multiple currencies</div>
+                    
+                    <div class="film">Custoare favoured by travellers and digital nomads managing money in more currencies</div>
+                </div>
+            </div>
+            <div class="card_item" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card_inner">
+                    <i class="fas fa-bell fa-5x"></i>
+                    <div class="role_name">Alerts and reminders</div>
+                    
+                    <div class="film">will notify you to pay the bill or not to exceed the budget.</div>
+                </div>
+            </div>
+            <div class="card_item" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card_inner">
+                    <i class="fas fa-cloud-upload-alt fa-5x"></i>
+                    <div class="role_name">Sync and backup</div>
+                    
+                    <div class="film">is valuable for everyone using Spendee across devices and sharing Spendee with others.</div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+<footer > 
+    <div class="foot">
+    <div class="fir">
+      <h2 id="my-footer">Made By</h2>
+      <p class="para">Anurag Bej</p>
+      <ul class="sci">
+    <li class="footli"><a href="#" class="foota"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+    <li class="footli"><a href="#" class="foota"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    <li class="footli"><a href="#" class="foota"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    </ul>
+    </div>
+    <div class="nav">
+      <h2>Quick Links</h2>
+      <ul class="footul2">
+        <li class="footli2"><a href="#" class="foota2">Home</a></li>
+        <li class="footli2"><a href="#" class="foota2">About</a></li>
+        <li class="footli2"><a href="#" class="foota2">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="contactus" id="my-footer2">
+    <h2>Contact Info</h2>
+    <ul class="info">
+    <li class="footli3">
+    <h7><i class="fa fa-map-marker" aria-hidden="true" style="color:white;"></i></h7>
+    <h7>Somewhere in this world</h7>
+    </li>
+    <li class="footli3">
+    <h7><i class="fa fa-phone" aria-hidden="true" style="color: white"></i></h7>
+    <p><a href="tel:1234567890" class="foota3">+1234567890</a></p>
+    </li>
+    <li class="footli3" class="foota3">
+    <h7><i class="fa fa-envelope" aria-hidden="true" style="color: white"></i></h7>
+    <p><a href="mailto:etos@gmail.com" class="foota3" >anuragbej@gmail.com</a></p>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </footer>
+    <div class="copyrightText">
+    <p>Copyright © 2021 Etos .All Rights Reserved</p>
+    </div>
+</body>
+<script src="aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
